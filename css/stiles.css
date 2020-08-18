@@ -142,6 +142,7 @@ address {
 .site-nav .link {
 	text-decoration: none;
 	color: var(--primary-text-color);
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	font-weight: 500;
 	font-size: 14px;
@@ -149,26 +150,17 @@ address {
 	letter-spacing: 0.02em;
 }
 
-.site-nav .link. {
-	color: var(--accent-color);
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
 	color: var(--accent-color);
 }
-
-.site-nav-item:active {
-	color: var(--accent-color);
-}
-
-/* не могу применить active к ссылкам */
 
 /* address */
 
 .address .link {
 	text-decoration: none;
 	color: var(--title-text-color);
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	font-weight: 500;
 	font-size: 14px;
@@ -394,6 +386,7 @@ address {
 	height: 90px;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon:hover,
@@ -411,6 +404,7 @@ address {
 }
 .clients-svg {
 	fill: #afb1b8;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ссылки на социальные сети */
@@ -427,11 +421,13 @@ address {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link-icon {
 	width: 20px;
 	height: 20px;
 	fill: #afb1b8;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials-item:not(:last-child) {
@@ -445,6 +441,7 @@ address {
 
 .team-socials-item:hover .socials-link-icon {
 	fill: #ffffff;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* FOOTER */
@@ -474,6 +471,7 @@ address {
 }
 .box-link {
 	color: var(--white-color);
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box-link .link:hover,
 .box-link .link:focus {
@@ -544,6 +542,7 @@ address {
 .filter-button:focus {
 	color: var(--white-color);
 	background-color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-button {
@@ -554,6 +553,7 @@ address {
 	border: 1px solid var(--section-bg-color);
 	border-radius: 4px;
 	background-color: var(--section-bg-color);
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button-item:not(:last-child) {
@@ -567,6 +567,7 @@ address {
 .portfolio-item {
 	width: 370px;
 	border: 1px solid #eeeeee;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:not(:nth-child(3n)) {
 	margin-right: 30px;
